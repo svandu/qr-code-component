@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(102, 128, 206, 0.725);
+    font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.qr-container{
+    background: #fff;
+    margin: 7em auto;
+    padding: 1em;
+    width: 20%;
+    height: 50%;
+    border-radius: 1em;
+}
+
+.qr-code-img {
+    width: 90%;
+    height: 50%;
+}
+
