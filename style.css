@@ -7,20 +7,34 @@ body {
 }
 
 .main-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .qr-container{
     background: #fff;
+    display: flex;
+    flex-direction: column;
     margin: 7em auto;
-    padding: 1em;
-    width: 20%;
-    height: 50%;
     border-radius: 1em;
 }
 
 .qr-code-img {
-    width: 90%;
-    height: 50%;
+    border-radius: 1em;
 }
 
+.content-part {
+    border: 1px solid red;
+}
+
+.first-para {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.second-para {
+    font-size: 0.5rem;
+    color: #000000a5;
+}
