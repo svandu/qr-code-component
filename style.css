@@ -25,10 +25,6 @@ body {
     border-radius: 1em;
 }
 
-.content-part {
-    border: 1px solid red;
-}
-
 .first-para {
     font-size: 1rem;
     font-weight: bold;
