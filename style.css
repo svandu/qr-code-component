@@ -7,22 +7,26 @@ body {
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
 }
 
 .qr-container{
     background: #fff;
     display: flex;
+    width: 20%;
     flex-direction: column;
+    padding: 1.5em 0;
     margin: 7em auto;
     border-radius: 1em;
 }
 
 .qr-code-img {
+    width: 80%;
     border-radius: 1em;
+}
+
+.content-part {
+    margin: 0 2em;
 }
 
 .first-para {
@@ -31,6 +35,19 @@ body {
 }
 
 .second-para {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     color: #000000a5;
+}
+
+@media (max-width: 1000px){
+    .qr-container {
+        width: 40%;
+    }
+}
+
+@media (max-width: 450px) {
+    .qr-container {
+        width: 80%;
+        margin: 6em auto;
+    }
 }
