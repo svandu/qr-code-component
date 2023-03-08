@@ -5,7 +5,7 @@
 
 ![qrCodeCoponentPageScreenShot](./images/ss-main-page.png)
 
-- [Overview](#overview)=
+- [Overview](#overview)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
